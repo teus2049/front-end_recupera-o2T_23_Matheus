@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+    color: #333;
+}
+
+/* Barra de navegação */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffdd00;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.search-bar {
+    padding: 10px;
+    width: 40%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.search-icon {
+    position: absolute;
+    right: 12%;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icon i {
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Seção principal com gradiente de fundo */
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.intro {
+    padding: 50px 0;
+}
+
+.animated-button {
+    padding: 15px 30px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.animated-button:hover {
+    transform: scale(1.1);
+}
+
+/* Produtos Relacionados */
+.produtos-relacionados {
+    margin: 50px 0;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.produto-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.produto-card img {
+    width: 100%;
+    height: auto;
+}
+
+.produto-card h3 {
+    margin: 10px 0;
+}
+
+.produto-card p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.btn-comprar {
+    background-color: #ffdd00;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Vídeo e Mapa */
+.multimedia {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.video, .map {
+    width: 45%;
+}
+
+/* Formas de Pagamento */
+.formas-pagamento {
+    padding: 20px;
+    text-align: center;
+}
+
+.formas-pagamento img {
+    width: 80%;
+    height: auto;
+}
+
+.btn-carrinho {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #ffdd00;
+    color: #333;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-carrinho:hover {
+    background-color: #333;
+    color: #fff;
+}
